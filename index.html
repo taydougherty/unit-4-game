@@ -4,12 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Crystal Collector Game</title>
+    <title>CrystalsCollector Game</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
     <script type="text/javascript" src="assets/javascript/game.js" async></script>
 </head>
 <body>
-    
+    <h2 id="header">CrystalsCollector!</h2>
+        <div id="rules">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+            <p>The value of each crystal is hidden from until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+
+        <div class="scoreboard" id="random-number"></div>
+
+        <div class="scoreboard" id="score">
+            <p id="wins">Wins:</p>
+            <p id="losses">Losses:</p>
+        </div>
+
+        <div id="crystals">
+            <img src="assets/images/blue_jewel.jpg">
+            <img src="assets/images/green_jewel.jpg">
+            <img src="assets/images/orange_jewel.jpg">
+            <img src="assets/images/yellow_jewel.jpg">
+        </div>
+
+        <div id="score-text-box">
+            <p>Your total score is:</p>
+        </div>
+
+        <div id="final-score"></div>
 </body>
 </html>

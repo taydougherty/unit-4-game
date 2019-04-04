@@ -1,0 +1,77 @@
+body {
+    background-color: lightslategray;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}
+
+#header {
+    width: 300px;
+    height: 90px;
+    background-color: orangered;
+    color: white;
+    line-height: 90px;
+    font-size: 28pt;
+    text-align: center;
+}
+
+#rules {
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    font-size: 14pt;
+    color: green;
+    text-align: left;
+    padding: 5px;
+}
+
+.scoreboard {
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+#random-number {
+    width: 200px;
+    height: 110px;
+    background-color: lightgreen;
+    color: black;
+    font-size: 28pt;
+}
+
+#score {
+    width: 75px;
+    height: 100px;
+    background-color: aqua;
+    color: black;
+    padding: 5px;
+    font-size: 14pt;
+}
+
+#crystals {
+    margin-top: 10px;
+}
+
+#score-text-box {
+    width: 205px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    font-size: 14pt;
+    padding-left: 5px;
+    line-height: 30px;
+}
+
+#final-score {
+    margin-top: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    font-size: 28pt;
+    padding: 5px;
+}
