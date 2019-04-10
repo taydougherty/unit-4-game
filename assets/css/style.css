@@ -52,8 +52,8 @@ img {
     font-size: 14pt;
 }
 
-#crystals {
-    margin-top: 10px;
+.crystals {
+    margin: 10px;
 }
 
 #score-text-box {
